@@ -1,5 +1,4 @@
 #include "Dogs.h"
-
 bool TDogs::GetLoyalty()
 {
 	return Loyalty;

@@ -21,4 +21,17 @@ void TAnimals::SetWeight(double _weight)
 		weight = _weight;
 
 }
+void TAnimals::Print()
+{
+	for (int i = 0; i < PetsCount; i++)
+	{
+		Pets[i]->Print();
+	}
+
+}
+TAnimals::TAnimals()
+{
+	PetsCount = 0;
+	Pets = nullptr;
+}
 

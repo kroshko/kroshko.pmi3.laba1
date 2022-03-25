@@ -1,11 +1,12 @@
 #pragma once
 #include "Pets.h"
-class TCats :public TPets 
+class TCats : public TPets 
 {
 protected:
-	int Valuemeow;
+	double Valuemeow;
 public:
-	int GetValuemeow();
-	void SetValuemeow(int _Valuemeow);
+	TCats();
+	double GetValuemeow();
+	TCats(double _Poroda, double _Health);
+	void SetValuemeow(double _Valuemeow);
 };
-

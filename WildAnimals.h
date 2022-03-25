@@ -3,9 +3,9 @@
 class TWildAnimals : public TAnimals
 {
 protected:
-	char Habitat;
+	int Habitat;
 public:
-	char GetHabitat();
-	void SetHabitat(char _Habitat);
+	int GetHabitat();
+	void SetHabitat(int _Habitat);
 
 };

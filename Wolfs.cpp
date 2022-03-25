@@ -1,10 +1,11 @@
 #include "Wolfs.h"
 
-char TWolfs::GetSneezing()
+int TWolfs::GetSneezing()
 {
 	return Sneezing;
 }
 
-void TWolfs::SetSneezing(char _Sneezing)
+void TWolfs::SetSneezing(int _Sneezing)
 {
+	Sneezing = _Sneezing;
 }

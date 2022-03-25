@@ -3,8 +3,8 @@
 class TWolfs : public TWildAnimals
 {
 protected:
-	char Sneezing;
+	int Sneezing;
 public:
-	char GetSneezing();
-	void SetSneezing(char _Sneezing);
+	int GetSneezing();
+	void SetSneezing(int _Sneezing);
 };

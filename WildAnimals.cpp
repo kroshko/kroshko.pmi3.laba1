@@ -1,11 +1,11 @@
 #include "WildAnimals.h"
 
-char TWildAnimals::GetHabitat()
+int TWildAnimals::GetHabitat()
 {
 	return Habitat;
 }
 
-void TWildAnimals::SetHabitat(char _Habitat)
+void TWildAnimals::SetHabitat(int _Habitat)
 {
 	Habitat = _Habitat;
 }
